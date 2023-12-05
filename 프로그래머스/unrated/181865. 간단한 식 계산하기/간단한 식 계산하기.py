@@ -7,5 +7,3 @@ def solution(binomial):
             return int(arr[0]) - int(arr[2])
         elif arr[1] == "*":
             return int(arr[0]) * int(arr[2])
-        elif arr[1] == "/":
-            return int(arr[0]) / int(arr[2])
